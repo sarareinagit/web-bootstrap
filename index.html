@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Art - Home</title>
+ <!-- Enlace al archivo CSS personalizado -->
+ <link rel="stylesheet" href="estilos.css">
+  <!-- Enlace al CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Digital Art</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Sección Home -->
+<section id="home" class="container-fluid mt-5 pt-5" style="position: relative; background-image: url('images/www.jpeg'); background-size: cover; background-position: center; height: 100vh;">
+  <!-- Filtro oscuro sobre la imagen -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+  
+  <div class="row justify-content-start align-items-center" style="position: relative; z-index: 1; height: 100%;">
+    <div class="col-12 text-start px-4">
+      <h1 class="text-white">Bienvenido a Digital Art</h1>
+      <p class="text-white">Ofrecemos servicios de consultoría de <br>marketing digital, diseño y desarrollo <br>de páginas web.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="container mt-5">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h3>Consultoría de Marketing Digital</h3>
+        <p>Te ayudamos a crear estrategias efectivas de marketing digital para tu negocio.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Páginas Web</h3>
+        <p>Desarrollamos páginas web personalizadas, funcionales y optimizadas.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Diseño Web</h3>
+        <p>Creamos diseños atractivos y modernos para mejorar la experiencia de tus usuarios.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Botón Descubre más que redirige a la página de Servicios-->
+  <div class="text-center mt-4">
+    <a href="servicios.html" class="btn-descubre">Descubre más</a>
+  </div>
+</section>
+
+    <!-- Sección con Imagen Grande y Texto al Lado -->
+<section id="imagen-texto" class="container mt-5 pt-5">
+    <div class="row align-items-center">
+      <!-- Columna para la imagen -->
+      <div class="col-md-6">
+        <img src="images/ridge.jpg" class="img-fluid w-80" alt="Imagen representativa de servicios">
+      </div>
+  
+      <!-- Columna para el texto -->
+      <div class="col-md-6">
+        <h2>¿Por qué elegirnos?</h2>
+        <!-- Añadir espacio entre el encabezado y el párrafo con mt-4 -->
+        <p class="mt-5">En <b>Digital Art</b>, estamos comprometidos con ofrecer soluciones efectivas y creativas. Nuestro equipo de expertos en marketing digital, diseño web y desarrollo, trabaja de manera integral para que tu negocio se destaque en el mundo digital. Utilizamos las últimas tecnologías y técnicas de diseño para crear experiencias únicas para nuestros clientes.</p>
+        <p>Ya sea que necesites una estrategia de marketing digital o un sitio web personalizado, nuestra prioridad es que cada proyecto refleje la esencia de tu marca y logre los mejores resultados posibles.</p>
+        <p>¿Estás buscando aumentar tu visibilidad online? Nosotros podemos ayudarte a desarrollar una estrategia de marketing digital personalizada y optimizada. Además, creamos páginas web modernas, funcionales y completamente adaptadas a las necesidades de tu empresa.</p>
+        <p>Confía en nosotros para que tu marca evolucione en el entorno digital. Con Digital Art, tu éxito está garantizado.</p>
+      <!-- Botón Contacta con nosotros que redirige a la página de Contacto-->
+      <div class="text-center mt-4">
+        <a href="contacto.html" class="btn-descubre">Contacta con nosotros</a>
+      </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Sección Historia y Compromiso -->
+<section id="historia-compromiso" class="container mt-5">
+  <div class="row">
+    <!-- Columna izquierda -->
+    <div class="col-md-6 text-start">
+      <h2>Conoce nuestra historia</h2>
+      <!-- Botón centrado y con separación adicional -->
+      <div class="d-flex justify-content-start mt-5">
+        <a href="sobrenosotros.html" class="btn-saber-mas">Saber más</a>
+      </div>
+    </div>
+    <!-- Columna derecha -->
+    <div class="col-md-6 p-4 bg-light border rounded">
+      <h3>Nuestro compromiso</h3>
+      <p>En Digital Art nos enorgullece ser líderes en la industria de los servicios de diseño web y marketing digital. Nuestro enfoque en la excelencia y el compromiso con ofrecer resultados efectivos a través de soluciones digitales de alta calidad nos ha permitido establecernos como una empresa en constante evolución y crecimiento en un mercado cada vez más competitivo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Sección Impulsa tu marca -->
+<section id="impulsa-marca" class="container-fluid mt-5 pt-5">
+  <div class="row">
+    <!-- Columna izquierda (texto) -->
+    <div class="col-md-6 text-start">
+      <h2>Descubre cómo podemos ayudarte a impulsar tu marca digitalmente</h2>
+      <p>Nuestros expertos en marketing digital y diseño web pueden ayudarte a llevar tu marca al siguiente nivel.</p>
+      <a href="contacto.html" class="btn-contactanos">Contáctanos</a>
+    </div>
+    <!-- Columna derecha (imagen) -->
+    <div class="col-md-6">
+      <div class="image-container">
+        <img src="images/www.jpeg" alt="Imagen de marca digital" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2025 Digital Art. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <ul class="list-unstyled mb-0">
+            <li><a href="privacy.html" class="text-white text-decoration-none">Política de Privacidad</a></li>
+            <li><a href="avisolegal.html" class="text-white text-decoration-none">Aviso Legal</a></li>
+            <li><a href="cookies.html" class="text-white text-decoration-none">Política de Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

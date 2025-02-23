@@ -1,0 +1,622 @@
+
+
+/* Estilos básicos para el cuerpo */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ebe6e2;
+    /* padding-top: 50px; Para separar la barra de navegación */
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar .navbar-brand {
+    color: #ffffff !important;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color:hwb(44 0% 0%); /* Color dorado al pasar el mouse */
+  }
+  
+  /* Estilo para las secciones */
+  section {
+    margin-top: 60px; /* Separación entre la barra de navegación y las secciones */
+    padding: 40px 0;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+
+  /*----------------------------------------------------*/
+
+  /* Estilos para el formulario de contacto */
+/* Estilo general para la sección */
+.contacto-section {
+  background-color: #f7d0e3; /* Fondo rosa clarito */
+  padding: 40px 0; /* Espaciado vertical */
+}
+
+/* Contenedor de imagen */
+.imagen-marco {
+  width: 100%; /* Imagen ocupa todo el ancho */
+  border: 10px solid white; /* Marco blanco alrededor de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para el formulario */
+/* Estilo general para la sección */
+.contacto-section {
+  background-color: hsl(345, 19%, 92%);
+  padding: 40px 0; /* Espaciado vertical */
+}
+
+/* Contenedor de imagen */
+.imagen-marco {
+  width: 100%; /* Imagen ocupa todo el ancho */
+  border: 10px solid white; /* Marco blanco alrededor de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 600px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario */
+  padding: 20px; /* Espaciado interno */
+  background-color: #fff; /* Fondo blanco para el formulario */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.form-label {
+  font-weight: bold; /* Etiquetas en negrita */
+}
+
+.form-control {
+  border-radius: 5px; /* Bordes redondeados en los campos */
+  padding: 10px; /* Espaciado interno en los campos */
+  margin-bottom: 15px; /* Espacio entre campos */
+}
+
+
+
+/* Estilo del botón */
+form .btn-enviar {
+  background-color: #FF6F61; /* Color del botón */
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+form .btn-enviar:hover {
+  background-color: #e55a4e; /* Color más oscuro al pasar el cursor */
+}
+
+
+ /*------------------------------------------------------*/
+  
+  /* Estilos personalizados para los títulos */
+  h1, h2, h3 {
+    color: #333333;
+  }
+  
+  #imagen-texto .row {
+    min-height: 500px; /* Ajusta este valor según sea necesario */
+}
+/*-------------------------------------------------------*/
+
+/* Estilo para la sección de Servicios */
+#servicios {
+  padding: 40px 0;
+  background-color: #f7f7f7; /* Fondo gris claro */
+}
+
+.card {
+  border: none; /* Elimina los bordes por defecto de las cards */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin-bottom: 30px; /* Espacio debajo de cada card */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem; /* Título más grande */
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los botones */
+#servicios .btn-naranja {
+  background-color:  #e79d13e3; 
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  display: block; /* Convertir el botón en un bloque para centrarlo */
+  margin: 0 auto; /* Centra el botón dentro de su contenedor */
+  width: fit-content; /* Ajusta el tamaño del botón al contenido */
+  text-align: center;
+  transition: background-color 0.3s ease;
+  
+}
+
+#servicios .btn-naranja:hover {
+  background-color:  #e654009f; /* Fondo naranja más oscuro al pasar el ratón */
+}
+
+#servicios .btn-naranja:active {
+  background-color:  #e654009f;/* Fondo aún más oscuro cuando se hace clic */
+}
+
+
+/*-------------------------------------------------------*/
+
+/*Estilo sección Tres Aspectos Clave*/
+/* Estilo para la sección enmarcada */
+#aspectos-clave {
+  border: 2px solid #FF6F61; /* Borde naranja para enmarcar */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 30px; /* Espaciado interno para el contenido */
+  background-color: #f8f9fa; /* Fondo claro para la sección */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Sombra suave para darle más profundidad */
+}
+
+/* Estilo para los títulos dentro de la sección */
+#aspectos-clave h2 {
+  color: #FF6F61; /* Color del texto del título */
+  font-size: 1.5rem;
+  margin-top: 45px;
+}
+
+/* Estilo para los iconos */
+.aspecto-icon i {
+  font-size: 2.2rem; /* Tamaño del icono */
+  color: #FF6F61; /* Color de los iconos */
+}
+
+/* Estilo para los encabezados h3 dentro de la sección */
+.aspecto-icon + h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Estilo para los párrafos dentro de los aspectos */
+.aspecto-icon + h3 + p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+
+
+/*---------------------------------------------------*/
+
+#home p{
+  font-size: 25px;
+}
+
+#home h1{
+  font-size: 43px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*---------------------------------------------*/
+
+
+/* Estilo para el botón Descubre más */
+.btn-descubre {
+  background-color:  #e79d13e3; 
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn-descubre:hover {
+  background-color: #e654009f; /* Naranja más oscuro en hover */
+}
+
+
+/*-----------------------------------------------*/
+
+/* Estilo para la sección Historia y Compromiso */
+#historia-compromiso .col-md-6 {
+  margin-bottom: 20px;
+}
+
+#historia-compromiso .btn-saber-mas {
+  background-color: #e79d13e3; /* Color naranja */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+#historia-compromiso .btn-saber-mas:hover {
+  background-color: #e654009f; /* Naranja más oscuro en hover */
+}
+
+#historia-compromiso .bg-light {
+  background-color: #f8f9fa !important; /* Color de fondo claro */
+}
+
+#historia-compromiso .border {
+  border: 1px solid #ddd; /* Borde suave alrededor del texto */
+}
+
+#historia-compromiso .rounded {
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+#historia-compromiso h2 {
+  font-size: 2.5rem;
+ 
+}
+
+#historia-compromiso h3 {
+  font-size: 1.75rem;
+ 
+}
+
+#historia-compromiso p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+#historia-compromiso .d-flex {
+  margin-top: 40px; /* Mayor separación para el botón */
+  justify-content: center; /* Asegura que el botón esté centrado */
+}
+
+/*-----------------------------------------------*/
+
+/* Estilo para la sección Impulsa tu marca */
+#impulsa-marca {
+  background-color: hsl(345, 19%, 92%) !important; /* Fondo rosa clarito */
+  padding: 50px 0;
+  border-radius: 8px; /* Bordes redondeados para la sección */
+  width: 100%; /* Asegura que la sección ocupe todo el ancho de la pantalla */
+}
+
+#impulsa-marca .col-md-6 {
+  margin-bottom: 20px;
+}
+
+#impulsa-marca h2 {
+  font-size: 2.5rem;
+  color: #333;
+  padding-top: 50px;
+  padding-left: 45px;
+}
+
+#impulsa-marca p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  padding-top: 12px;
+  padding-left: 45px;
+}
+
+#impulsa-marca .btn-contactanos {
+  background-color: #FF6F61; /* Color del botón */
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+#impulsa-marca .btn-contactanos:hover {
+  background-color: #e55a4e; /* Color más oscuro al pasar el cursor */
+}
+
+#impulsa-marca .image-container {
+  border: 5px solid white; /* Marco blanco alrededor de la imagen */
+  padding:0px; /* Espacio entre la imagen y el borde */
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+#impulsa-marca img {
+  max-width: 100%; /* Asegura que la imagen se ajuste bien a la columna */
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+
+/*---------------------------------------------------*/
+
+/*Estilo para Sección Estrategias Clave de Diseño Web*/
+
+#encabezado-estrategias {
+  background-color: #f8f9fa; /* Fondo para el encabezado */
+  padding: 40px 0; /* Espaciado alrededor del encabezado */
+}
+
+#encabezado-estrategias h2 {
+  font-size: 2rem; /* Tamaño del encabezado */
+  color: #FF6F61; /* Color del encabezado */
+}
+
+#estrategias-clave {
+  background-color: #f8f9fa; /* Fondo de la sección */
+  padding: 40px 0;
+}
+
+/* Ajustar el tamaño de las columnas */
+#estrategias-clave .col-md-5 {
+  max-width: 500px; /* Limitar el ancho de cada columna */
+  margin: 0 auto; /* Centrar las columnas */
+}
+
+/* Centrando el texto de las columnas */
+#estrategias-clave h3 {
+  font-size: 1.25rem; /* Tamaño más pequeño del encabezado */
+}
+
+/* Centrar la sección */
+#estrategias-clave .row {
+  justify-content: center; /* Centrar las columnas dentro de la fila */
+}
+
+
+/*-----------------------------------------------------------*/
+
+
+/* Estilo para la sección Nuestros Valores */
+#nuestros-valores {
+  padding: 40px 0;
+  
+}
+
+/* Ajustar el tamaño de las columnas */
+#nuestros-valores .col-md-6 {
+  max-width: 500px; /* Hacemos las columnas más estrechas */
+  margin: 0 auto; /* Centrar las columnas */
+}
+
+/* Estilo para las tarjetas */
+#nuestros-valores .card {
+  border: 1px solid #ddd; /* Borde suave alrededor de las tarjetas */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  padding: 20px;
+}
+
+/* Títulos de los valores */
+#nuestros-valores h3 {
+  font-size: 1.3rem; /* Títulos más pequeños para un look más limpio */
+  color: #FF6F61; /* Color del título */
+  margin-bottom: 15px; /* Espacio debajo del título */
+}
+
+/* Párrafos debajo de los títulos */
+#nuestros-valores p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Alineación de iconos y texto */
+#nuestros-valores .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+#nuestros-valores i {
+  margin-right: 15px; /* Espacio entre el ícono y el título */
+}
+
+
+/*-----------------------------------------------*/
+
+/* Estilo para la sección de Nuestro equipo */
+#nuestro-equipo {
+  /* background-color: #f8f9fa; Fondo claro para la sección */
+  padding: 40px 0; /* Espaciado superior e inferior */
+}
+
+/* Título de la sección */
+#nuestro-equipo h2 {
+  font-size: 2.1rem;
+  /* font-weight: bold;
+  color: #FF6F61; */
+  margin-bottom: 25px;
+}
+
+/* Descripción debajo del título */
+#nuestro-equipo p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+/* Estilo para los perfiles */
+#nuestro-equipo .col-md-3 {
+  max-width: 300px;
+}
+
+/* Estilo para la imagen de cada miembro del equipo */
+#nuestro-equipo .img-fluid {
+  width: 150px; /* Tamaño fijo para las imágenes */
+  height: 150px; /* Mantener la imagen cuadrada */
+  object-fit: cover; /* Cubrir el área sin deformar */
+  border-radius: 50%; /* Redondear las imágenes */
+}
+
+/* Estilo para los nombres de los miembros */
+#nuestro-equipo h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+
+/* Estilo para los títulos de los cargos */
+#nuestro-equipo p strong {
+  font-size: 1rem;
+  color: #FF6F61;
+}
+
+/* Espaciado para las descripciones debajo de los nombres */
+#nuestro-equipo p {
+  font-size: 0.95rem;
+  color: #777;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+
+/*-------------------------------------------------------*/
+
+/* Estilos para la Política de Cookies */
+#cookies-policy {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+h4 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #343a40;
+} 
+
+
+/*-----------------------------------------------*/
+
+/* Estilos para la Política de Privacidad */
+#privacy-policy {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+h4 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+/*----------------------------------------------------*/
+
+/* Estilos para el Aviso Legal */
+#legal-notice {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+h4 {
+  color: #333;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+
+}
+
+footer {
+  background-color: #343a40;
+}
+
