@@ -24,7 +24,7 @@ El proyecto está compuesto por los siguientes archivos:
 ## Instalación
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/digital-art.git
+   git clone https://github.com/sarareinagit/web-bootstrap.git
 
 ## Uso
 - Visita las páginas a través del navegador para explorar la estructura completa del sitio.
