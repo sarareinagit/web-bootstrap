@@ -4,7 +4,6 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: #ebe6e2;
-    /* padding-top: 50px; Para separar la barra de navegación */
   }
   
   /* Barra de navegación */
@@ -45,20 +44,6 @@ body {
 /* Estilo general para la sección */
 .contacto-section {
   background-color: #f7d0e3; /* Fondo rosa clarito */
-  padding: 40px 0; /* Espaciado vertical */
-}
-
-/* Contenedor de imagen */
-.imagen-marco {
-  width: 100%; /* Imagen ocupa todo el ancho */
-  border: 10px solid white; /* Marco blanco alrededor de la imagen */
-  border-radius: 10px; /* Bordes redondeados */
-}
-
-/* Estilos para el formulario */
-/* Estilo general para la sección */
-.contacto-section {
-  background-color: hsl(345, 19%, 92%);
   padding: 40px 0; /* Espaciado vertical */
 }
 
